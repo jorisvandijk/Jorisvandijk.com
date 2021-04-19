@@ -12,14 +12,6 @@
 			font-weight: normal;
 			font-style: normal;
 		}
-		@font-face {
-			font-family: 'font2';
-			src:url('font2.woff2') format('woff2'),
-				url('font2.woff') format('woff'),
-				url('font2.ttf') format('truetype');
-			font-weight: normal;
-			font-style: normal;
-		}
 		#bg {
 			position:fixed;
 			top:-50%; 
@@ -48,7 +40,7 @@
 			z-index: 9999;
 			color: #fff;
 			font-size: 8vw;
-			font-family: 'font2';
+			font-family: 'font';
 		}
 		.footer {
 			position: fixed;
@@ -60,7 +52,7 @@
 			text-align: center;
 			z-index: 9999;
 			font-family: 'font';
-			font-size: 1vw;
+			font-size: 1.4vw;
 		}
 		.copyleft {
 			display:inline-block;
@@ -71,7 +63,7 @@
 <body>
 	<h1>Jorisvandijk.com</h1>
 	<div class="footer">
-		<span class="copyleft">&copy;</span> 1997 - <script>document.write(new Date().getFullYear())</script>
+		<span class="copyleft">&copy;</span> 1997 - <?php echo date("Y");?>
 	  </div>
 	<div id="bg">
 		<img src="bg.jpg">
