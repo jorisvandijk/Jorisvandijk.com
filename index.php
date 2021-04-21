@@ -38,7 +38,8 @@
 			top: 50%;
 			width: 100%;
 			z-index: 9999;
-			color: #fff;
+			color: white;
+			text-shadow: 3px 5px 2px #474747;			
 			font-size: 8vw;
 			font-family: 'font';
 		}
@@ -49,6 +50,7 @@
 			margin-bottom: 10px;
 			width: 100%;
 			color: white;
+			text-shadow: 3px 5px 2px #474747;	
 			text-align: center;
 			z-index: 9999;
 			font-family: 'font';
@@ -66,7 +68,7 @@
 		<span class="copyleft">&copy;</span> 1997 - <?php echo date("Y");?>
 	  </div>
 	<div id="bg">
-		<img src="bg.jpg">
+		<img src="bg2.jpg">
 	</div>
 </body>
 </html>
